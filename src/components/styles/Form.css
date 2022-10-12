@@ -1,0 +1,37 @@
+
+
+.form-table{
+    position: relative;
+    top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    select{
+        overflow: hidden;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .form-table .botonse{
+        top: 20px;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .full-form {
+        margin-top: -20%;
+    }
+
+    select{
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    select{
+        overflow: hidden;
+        width: 100px;
+    }
+}

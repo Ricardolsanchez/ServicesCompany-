@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    .home__section {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home__section .btn {
+        line-height: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,35 @@
+#navbarSupportedContent {
+    margin-left: -6%;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+}
+
+.logo h5{
+    font-weight: bold;
+    padding: 0 30px;
+    display: flex;
+    margin-top: -30px;
+}
+
+.close_button{
+    display: flex;
+    font-size: 100%;
+    position: absolute;
+    left: 85%;
+    display: none;
+}
+
+.menu a:hover{
+    color: rgb(0,219,201) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .close_button {
+        display: flex;
+        cursor: pointer;
+    }
+}

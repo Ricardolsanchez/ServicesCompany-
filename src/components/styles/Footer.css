@@ -1,0 +1,10 @@
+.botones-abajo button{
+    position: relative ;
+    top: 85%;
+}
+
+@media only screen and (max-width: 320px) {
+    .botones-abajo button {
+        width: 115px;
+    }
+}

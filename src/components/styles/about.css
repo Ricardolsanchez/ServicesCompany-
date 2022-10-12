@@ -1,0 +1,12 @@
+.about-me img{
+    margin-left: 50px;
+}
+
+
+@media only screen and (max-width: 428px) {
+    .final-text p {
+        overflow: hidden;
+        font-size: 8px;
+    }
+}
+
